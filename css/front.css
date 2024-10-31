@@ -1,0 +1,79 @@
+.rys-widget {
+    font-size: 13px;
+    color: #000000;
+}
+.rys-widget label {
+    width: 100%; 
+    float:left;
+    color: #b94a48; 
+}
+
+.rys-widget label span.required {
+    color:#b94a48
+}
+
+.rys-widget .form-group {
+    float:left;
+    width:100%;
+    margin-bottom:10px;
+}
+
+.rys-widget input,
+.rys-widget textarea,
+.rys-widget select {
+    font-size: 13px;
+    color: #000000;
+    outline:none; 
+    resize:none;
+    width:100%;
+    float:left;
+    padding: 5px;
+    border: 1px solid #d4d0ba;
+    font-family: inherit;
+}
+
+.rys-widget input[type=submit], 
+.rys-widget button[type=submit] {
+    cursor:pointer;
+    border: 1px solid #d4d0ba;
+    padding: 5px;
+}
+
+.rys-widget .pull-right {
+    float:right;
+    margin-right:0px;
+}
+
+.rys-widget .pull-left {
+    float:left;
+    margin-left:0px;
+}
+
+.rys-widget .clearfix {
+    clear:both;
+}
+
+.rys-widget .error {
+    font-size:11px;
+    color:#b94a48;
+}
+.rys-widget .form-group.error {
+    font-size: 13px;
+    color: #b94a48;
+}
+.rys-widget .form-group.error input[type=text],
+.rys-widget .form-group.error select,
+.rys-widget .form-group.error textarea {
+    border: 1px solid #b94a48;
+    background: #f2dede;
+}
+
+.rys-widget input:focus,
+.rys-widget textarea:focus,
+.rys-widget select:focus {
+    border: 1px solid #d4d0ba;
+}
+
+.rys-widget .message {
+    color: #b94a48;
+}
